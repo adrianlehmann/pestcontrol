@@ -1,0 +1,685 @@
+# REPLIT WEBSITE BUILD PROMPT
+
+Create a premium, modern, SEO-optimized website for **W4 Pest Management**, a trusted pest control company serving Troy, Michigan and the surrounding Metro Detroit area. The website should immediately establish trust, professionalism, and peace of mind while encouraging visitors to request an inspection or call for immediate service.
+
+The design should feel modern, clean, and reassuring—not overly corporate or overly aggressive. The goal is to make homeowners and businesses feel confident that W4 Pest Management will solve their pest problems quickly, safely, and professionally.
+
+The primary goal of the website is to generate phone calls, quote requests, and recurring pest maintenance plan sign-ups.
+
+---
+
+# Business Information
+
+**Business Name:**
+W4 Pest Management
+
+**Tagline:**
+Professional Pest Control Solutions for Homes & Businesses
+
+**Category:**
+Pest Control Service
+
+**Address:**
+3334 Rochester Rd #225
+Troy, MI 48083
+
+**Phone:**
+(248) 930-0138
+
+---
+
+# Business Hours
+
+Monday
+8:00 AM – 7:00 PM
+
+Tuesday
+8:00 AM – 7:00 PM
+
+Wednesday
+8:00 AM – 7:00 PM
+
+Thursday
+8:00 AM – 7:00 PM
+
+Friday
+8:00 AM – 7:00 PM
+
+Saturday
+9:00 AM – 2:00 PM
+
+Sunday
+Closed
+
+---
+
+# Brand Personality
+
+The company should be presented as:
+
+* Professional
+* Honest
+* Responsive
+* Knowledgeable
+* Friendly
+* Thorough
+* Reliable
+* Family-Oriented
+* Affordable
+* Customer Focused
+
+The website should reassure visitors that pest problems are solved correctly the first time while emphasizing long-term prevention through maintenance plans.
+
+---
+
+# Design Style
+
+Modern premium home service website inspired by companies like Orkin, Terminix, Aptive Environmental, and Hawx Pest Control.
+
+Use:
+
+* Clean white backgrounds
+* Deep green accents
+* Modern iconography
+* Nature-inspired elements
+* Rounded cards
+* Soft shadows
+* High-quality photography
+* Smooth animations
+* Plenty of whitespace
+* Large call-to-action sections
+
+---
+
+# Color Palette
+
+Primary Green
+
+#2E7D32
+
+Dark Green
+
+#1B5E20
+
+Accent Orange
+
+#F57C00
+
+White
+
+#FFFFFF
+
+Light Gray
+
+#F7F8FA
+
+Dark Gray
+
+#333333
+
+Buttons
+
+Forest Green
+
+Hover
+
+Dark Green
+
+Success
+
+#43A047
+
+---
+
+# Typography
+
+Headings
+
+Poppins Bold
+
+Body
+
+Inter
+
+Buttons
+
+Semi Bold
+
+---
+
+# Website Structure
+
+## Sticky Header
+
+Logo
+
+Navigation
+
+Home
+
+Services
+
+Maintenance Plans
+
+About
+
+Reviews
+
+FAQ
+
+Contact
+
+Right Side
+
+📞 Call Now
+
+(248) 930-0138
+
+Primary CTA
+
+Free Inspection
+
+---
+
+# Hero Section
+
+Background
+
+Professional technician inspecting a residential property with clean landscaping.
+
+Headline
+
+## Professional Pest Control That Gives You Peace of Mind
+
+Subheadline
+
+Protect your home or business from unwanted pests with reliable inspections, effective treatments, and affordable maintenance plans from W4 Pest Management.
+
+Buttons
+
+Request Free Inspection
+
+Call Now
+
+Trust Badges
+
+✔ Licensed Professionals
+
+✔ Fast Response
+
+✔ Honest Pricing
+
+✔ Maintenance Plans Available
+
+✔ Residential & Commercial
+
+---
+
+# Why Choose W4 Pest Management
+
+Headline
+
+Why Homeowners Trust W4 Pest Management
+
+Create feature cards.
+
+### Fast Response
+
+Same-day and prompt scheduling whenever possible.
+
+### Thorough Inspections
+
+We identify the source of the problem—not just the symptoms.
+
+### Effective Treatments
+
+Professional products and proven methods that deliver lasting results.
+
+### Honest Recommendations
+
+Only the services you actually need.
+
+### Maintenance Plans
+
+Year-round protection with convenient recurring service options.
+
+### Customer Satisfaction
+
+Friendly service backed by professionalism and reliability.
+
+---
+
+# Services
+
+Create premium service cards.
+
+## General Pest Inspection
+
+Comprehensive inspections to identify current pest issues and potential entry points.
+
+---
+
+## Ant Extermination
+
+Effective treatment for carpenter ants, flying ants, and common household ants.
+
+---
+
+## Spider Extermination
+
+Reduce spider populations inside and around your home.
+
+---
+
+## Rodent Extermination
+
+Professional solutions for mice and rats, including identifying entry points and prevention strategies.
+
+---
+
+## Hornet & Wasp Removal
+
+Safe removal of dangerous nests around your property.
+
+---
+
+## Bee Removal
+
+Professional assessment and safe removal solutions.
+
+---
+
+## Termite Inspection
+
+Early detection to protect your home from costly structural damage.
+
+---
+
+## Termite Treatment
+
+Targeted termite control solutions to eliminate active infestations.
+
+---
+
+## General Bug & Insect Control
+
+Treatment for common household insects including roaches, silverfish, earwigs, centipedes, and more.
+
+---
+
+# Maintenance Plans
+
+Create a dedicated section promoting recurring pest protection.
+
+Headline
+
+Year-Round Pest Protection
+
+Content
+
+Our maintenance plans help prevent infestations before they become costly problems.
+
+Benefits
+
+Quarterly service
+
+Seasonal treatments
+
+Priority scheduling
+
+Warranty-backed service
+
+Preventative inspections
+
+Convenient recurring payments
+
+Less stress
+
+Long-term savings
+
+CTA
+
+Ask About Maintenance Plans
+
+---
+
+# About Section
+
+Headline
+
+Local Pest Control You Can Trust
+
+Content
+
+W4 Pest Management proudly serves homeowners and businesses throughout Troy and the surrounding communities with dependable pest control solutions focused on quality, honesty, and customer satisfaction.
+
+Whether you're dealing with ants, spiders, rodents, termites, wasps, or other unwanted pests, our experienced technicians take the time to identify the source of the problem and develop the right treatment plan for your property.
+
+We believe great pest control starts with honest communication, professional service, and treating every customer like family.
+
+---
+
+# Process Section
+
+Headline
+
+Our Proven Process
+
+Step 1
+
+Schedule Your Inspection
+
+Step 2
+
+Professional Property Evaluation
+
+Step 3
+
+Customized Treatment Plan
+
+Step 4
+
+Professional Treatment
+
+Step 5
+
+Ongoing Protection & Maintenance
+
+---
+
+# Reviews
+
+Create premium testimonial cards.
+
+Highlight recurring themes.
+
+★★★★★
+
+Professional
+
+Knowledgeable
+
+Responsive
+
+Fair pricing
+
+Thorough inspections
+
+Excellent communication
+
+Friendly technicians
+
+Honest recommendations
+
+Warranty-backed work
+
+Use excerpts from actual reviews.
+
+Examples
+
+"Our pest treatment worked even better than expected. The issue was completely resolved and our home feels comfortable again."
+
+—
+
+"Jay is always kind, professional, and incredibly thorough. His pricing is fair and the quality of work is outstanding."
+
+—
+
+"I called several companies that never showed up. W4 came the very same day, arrived exactly when promised, and solved the problem."
+
+—
+
+"Jay performed a same-day inspection and honestly confirmed we didn't have bed bugs. His honesty and professionalism were refreshing."
+
+—
+
+"They eliminated our carpenter ant problem quickly and explained the entire treatment process."
+
+—
+
+"Jay patiently explained our mouse problem, showed us the entry points, and educated us on preventing future issues."
+
+---
+
+# Service Areas
+
+Headline
+
+Proudly Serving Troy & Surrounding Communities
+
+Include:
+
+Troy
+
+Rochester Hills
+
+Royal Oak
+
+Clawson
+
+Birmingham
+
+Bloomfield Hills
+
+Sterling Heights
+
+Madison Heights
+
+Auburn Hills
+
+Metro Detroit
+
+Google Map integration.
+
+---
+
+# FAQ
+
+Include questions:
+
+How often should pest control treatments be performed?
+
+Do you offer recurring maintenance plans?
+
+Are your treatments safe for children and pets?
+
+How long does a treatment take?
+
+What pests do you treat?
+
+Do you provide termite inspections?
+
+How quickly can you schedule service?
+
+Do you offer warranties?
+
+---
+
+# CTA Banner
+
+Background
+
+Professional technician treating the exterior of a home.
+
+Headline
+
+Protect Your Home from Unwanted Pests
+
+Subheadline
+
+Schedule your professional inspection today and enjoy lasting peace of mind with W4 Pest Management.
+
+Buttons
+
+Request Free Inspection
+
+Call Now
+
+---
+
+# Contact Section
+
+Left
+
+Business Information
+
+W4 Pest Management
+
+3334 Rochester Rd #225
+
+Troy, MI 48083
+
+Phone
+
+(248) 930-0138
+
+Business Hours
+
+Embedded Google Map
+
+---
+
+Right
+
+Quote Form
+
+Fields
+
+Name
+
+Phone
+
+Email
+
+Service Needed
+
+Property Address
+
+Message
+
+Checkbox
+
+I'm interested in a recurring maintenance plan.
+
+Button
+
+Schedule My Inspection
+
+---
+
+# Footer
+
+Include
+
+Business Information
+
+Quick Links
+
+Services
+
+Maintenance Plans
+
+Business Hours
+
+Privacy Policy
+
+Terms of Service
+
+Copyright
+
+Social Media Icons
+
+---
+
+# SEO Requirements
+
+Primary Keywords
+
+Pest Control Troy MI
+
+Pest Control Near Me
+
+Exterminator Troy MI
+
+Pest Management Troy
+
+Rodent Control Troy
+
+Termite Inspection Troy
+
+Ant Extermination Troy
+
+Spider Extermination Troy
+
+Secondary Keywords
+
+Hornet Removal Troy
+
+Wasp Removal Troy
+
+Bee Removal Troy
+
+Residential Pest Control
+
+Commercial Pest Control
+
+Quarterly Pest Control
+
+Recurring Pest Control Service
+
+Bug Exterminator Troy
+
+Mouse Exterminator Troy
+
+---
+
+# Technical Requirements
+
+Build using:
+
+* React
+* Next.js
+* Tailwind CSS
+* Framer Motion
+
+Include:
+
+* Mobile-first responsive design
+* Sticky "Call Now" button
+* Floating "Free Inspection" button
+* Google Maps integration
+* Schema.org Local Business markup
+* FAQ Schema
+* Service Schema
+* Open Graph tags
+* SEO meta descriptions
+* Lazy-loaded images
+* WCAG accessibility compliance
+* Lighthouse performance score target of 95+
+
+---
+
+# Conversion Optimization
+
+Include throughout the website:
+
+* Multiple "Request Free Inspection" buttons
+* Click-to-call functionality
+* Google Reviews highlights
+* Maintenance plan callouts
+* Warranty badges
+* FAQ section
+* Trust badges
+* "Fast Response" messaging
+* Educational pest prevention tips
+* Before-and-after treatment placeholders
+
+Primary CTA:
+
+**Call (248) 930-0138 Today to Schedule Your Pest Inspection**
+
+---
+
+# Visual Inspiration
+
+The website should project cleanliness, safety, and professionalism while reassuring visitors that pest problems can be solved quickly and effectively. Use high-quality imagery of technicians performing inspections, treated homes, healthy outdoor spaces, and close-up photography of common pests in tasteful, non-alarming ways. Incorporate subtle animations, modern icons, and nature-inspired green accents to reinforce trust and expertise. The overall impression should be that W4 Pest Management is the knowledgeable local expert homeowners can rely on for both immediate pest solutions and long-term protection through recurring maintenance plans.

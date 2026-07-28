@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "W4 Pest Management"
+version = "1.0.0"
+id = "artifacts/w4-pest-management"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20125
+
+[services.development]
+run = "pnpm --filter @workspace/w4-pest-management run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/w4-pest-management", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/w4-pest-management/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20125"
+BASE_PATH = "/"
