@@ -24,9 +24,25 @@ import heroImg from '../assets/hero.jpg';
 // @ts-ignore
 import aboutImg from '../assets/about.jpg';
 
+function formatUSPhone(value: string, isDeleting = false): string {
+  const digits = value.replace(/\D/g, "").slice(0, 10);
+  if (digits.length === 0) return "";
+  if (digits.length < 3) return `(${digits}`;
+  if (digits.length === 3) return isDeleting ? `(${digits}` : `(${digits}) `;
+  if (digits.length < 6) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  if (digits.length === 6) {
+    return isDeleting
+      ? `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+      : `(${digits.slice(0, 3)}) ${digits.slice(3)}-`;
+  }
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+}
+
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name is required"),
-  phone: z.string().min(10, "Valid phone number is required"),
+  phone: z
+    .string()
+    .regex(/^\(\d{3}\) \d{3}-\d{4}$/, "Enter a valid 10-digit US phone number"),
   email: z.string().email("Valid email is required"),
   service: z.string().min(1, "Please select a service"),
   message: z.string().optional(),
@@ -713,7 +729,18 @@ export default function LandingPage() {
                           <FormItem>
                             <FormLabel>Phone Number</FormLabel>
                             <FormControl>
-                              <Input placeholder="(248) 555-0123" {...field} className="h-12" />
+                              <Input
+                                placeholder="(248) 555-0123"
+                                type="tel"
+                                inputMode="tel"
+                                className="h-12"
+                                {...field}
+                                onChange={(e) => {
+                                  const next = e.target.value;
+                                  const isDeleting = next.length < field.value.length;
+                                  field.onChange(formatUSPhone(next, isDeleting));
+                                }}
+                              />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
