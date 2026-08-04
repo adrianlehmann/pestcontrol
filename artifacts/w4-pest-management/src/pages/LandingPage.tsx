@@ -27,7 +27,11 @@ import aboutImg from '../assets/about.jpg';
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name is required"),
   phone: z.string().min(10, "Valid phone number is required"),
-  email: z.string().email("Valid email is required"),
+  email: z
+    .string()
+    .email("Valid email is required")
+    .optional()
+    .or(z.literal("")),
   service: z.string().min(1, "Please select a service"),
   message: z.string().optional(),
 });
@@ -698,7 +702,7 @@ export default function LandingPage() {
                         name="name"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel>Full Name</FormLabel>
+                            <FormLabel>Full Name *</FormLabel>
                             <FormControl>
                               <Input placeholder="John Doe" {...field} className="h-12" />
                             </FormControl>
@@ -711,7 +715,7 @@ export default function LandingPage() {
                         name="phone"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel>Phone Number</FormLabel>
+                            <FormLabel>Phone Number *</FormLabel>
                             <FormControl>
                               <Input placeholder="(248) 555-0123" {...field} className="h-12" />
                             </FormControl>
@@ -740,8 +744,8 @@ export default function LandingPage() {
                         name="service"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel>Service Needed</FormLabel>
-                            <Select onValueChange={field.onChange} defaultValue={field.value}>
+                            <FormLabel>Service Needed *</FormLabel>
+                            <Select onValueChange={field.onChange} value={field.value}>
                               <FormControl>
                                 <SelectTrigger className="h-12">
                                   <SelectValue placeholder="Select a service" />
