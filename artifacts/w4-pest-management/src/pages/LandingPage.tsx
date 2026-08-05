@@ -123,15 +123,15 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       {/* Sticky Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-5'
       }`}>
-        <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <ShieldCheck className="w-8 h-8 text-primary" />
-            <span className={`font-heading font-bold text-xl tracking-tight ${isScrolled ? 'text-foreground' : 'text-white'}`}>
+        <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between gap-3 max-w-full">
+          <div className="flex items-center gap-2 min-w-0">
+            <ShieldCheck className="w-8 h-8 text-primary shrink-0" />
+            <span className={`font-heading font-bold text-lg sm:text-xl tracking-tight truncate ${isScrolled ? 'text-foreground' : 'text-white'}`}>
               W4 Pest Management
             </span>
           </div>
@@ -163,7 +163,9 @@ export default function LandingPage() {
 
           {/* Mobile Menu Toggle */}
           <button 
-            className="lg:hidden p-2"
+            type="button"
+            aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+            className="lg:hidden shrink-0 p-2 -mr-1"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
@@ -923,23 +925,15 @@ export default function LandingPage() {
       {/* Floating Call Button for Mobile */}
       <a 
         href="tel:2489300138" 
-        className="fixed bottom-6 right-6 z-50 bg-accent text-white rounded-full py-4 px-6 shadow-2xl flex items-center gap-2 font-bold hover:bg-accent/90 transition-transform hover:scale-105 active:scale-95 animate-bounce-short"
-        style={{ animation: 'bounce 2s infinite' }}
+        className="fixed z-50 bottom-6 right-4 sm:right-6 bg-accent text-white rounded-full py-3.5 px-5 shadow-2xl flex items-center gap-2 font-bold hover:bg-accent/90 transition-colors max-w-[calc(100vw-2rem)]"
+        style={{
+          bottom: 'max(1.5rem, env(safe-area-inset-bottom, 0px))',
+          right: 'max(1rem, env(safe-area-inset-right, 0px))',
+        }}
       >
-        <Phone className="w-5 h-5" />
-        <span className="hidden md:inline">Call Now: </span>(248) 930-0138
+        <Phone className="w-5 h-5 shrink-0" />
+        <span className="truncate">(248) 930-0138</span>
       </a>
-      
-      {/* Basic animation style for floating button */}
-      <style dangerouslySetInnerHTML={{__html: `
-        @keyframes bounce-short {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-5px); }
-        }
-        .animate-bounce-short {
-          animation: bounce-short 3s ease-in-out infinite;
-        }
-      `}} />
     </div>
   );
 }
