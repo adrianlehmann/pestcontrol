@@ -9,9 +9,6 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { 
-  Select, SelectContent, SelectItem, SelectTrigger, SelectValue 
-} from '@/components/ui/select';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -37,6 +34,18 @@ function formatUSPhone(value: string, isDeleting = false): string {
   }
   return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }
+
+const services = [
+  "General Pest Inspection",
+  "Ant Extermination",
+  "Spider Extermination",
+  "Rodent Extermination",
+  "Hornet & Wasp Removal",
+  "Bee Removal",
+  "Termite Inspection",
+  "Termite Treatment",
+  "Other / Not Sure",
+];
 
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name is required"),
@@ -774,24 +783,19 @@ export default function LandingPage() {
                         render={({ field }) => (
                           <FormItem>
                             <FormLabel>Service Needed *</FormLabel>
-                            <Select onValueChange={field.onChange} value={field.value}>
-                              <FormControl>
-                                <SelectTrigger className="h-12">
-                                  <SelectValue placeholder="Select a service" />
-                                </SelectTrigger>
-                              </FormControl>
-                              <SelectContent>
-                                <SelectItem value="general">General Pest Inspection</SelectItem>
-                                <SelectItem value="ants">Ant Extermination</SelectItem>
-                                <SelectItem value="spiders">Spider Extermination</SelectItem>
-                                <SelectItem value="rodents">Rodent Extermination</SelectItem>
-                                <SelectItem value="wasps">Hornet & Wasp Removal</SelectItem>
-                                <SelectItem value="bees">Bee Removal</SelectItem>
-                                <SelectItem value="termites_insp">Termite Inspection</SelectItem>
-                                <SelectItem value="termites_treat">Termite Treatment</SelectItem>
-                                <SelectItem value="other">Other / Not Sure</SelectItem>
-                              </SelectContent>
-                            </Select>
+                            <FormControl>
+                              <select
+                                {...field}
+                                className="flex h-12 w-full rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring appearance-none"
+                              >
+                                <option value="">Select a service</option>
+                                {services.map((service) => (
+                                  <option key={service} value={service}>
+                                    {service}
+                                  </option>
+                                ))}
+                              </select>
+                            </FormControl>
                             <FormMessage />
                           </FormItem>
                         )}
